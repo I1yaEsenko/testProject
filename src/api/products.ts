@@ -1,7 +1,7 @@
 import md5 from "md5";
 import { getIdsParams } from "../components/types";
 
-const HTTP_LINK = "http://api.valantis.store:40000";
+const HTTP_LINK = "https://api.valantis.store:40000";
 const PASSWORD = "Valantis";
 
 export const authString = md5(
